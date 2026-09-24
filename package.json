@@ -20,6 +20,7 @@
   "homepage": "https://github.com/iamchris343/Taskit#readme",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.6",
     "dotenv": "^18.0.3",
     "express": "^5.2.1",
     "mongoose": "^9.10.2"

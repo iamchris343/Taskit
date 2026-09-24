@@ -18,6 +18,7 @@ app.use(express.json())
 
 app.use('/api/tasks', taskRoutes);
 
-app.listen(PORT, ()=>{
-    console.log(`Taskit Up and running sir HTTP://localhost:${PORT}`)
-} )
+
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
+});
